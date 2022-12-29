@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+html,
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal;
+  background-color: #f8f8fa;
+  overflow-x: hidden;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  /* background-color: #4640de ; */
+}
+
+/* Navbar */
+.nav__item {
+  color: #FFFFFF;
+}
+
+.nav__item:hover{
+  text-decoration: none;
+  color: #99D1B0;
+}
+
+.navbar-dropdown {
+  display: flex;
+  justify-content: end;
+}
+
+.btn-news {
+  background-color: #163D2A;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  border: none;
+}
+
+/* Hero */
+.jumbotron {
+  width: 100%;
+  background: linear-gradient(180deg, #048853 3%, #0000);
+}
+
+.nav-color {
+  background: linear-gradient(112.9deg, #048853 0.98%, rgba(0, 0, 0, 0.84) 165.36%);
+  transition: all ease-in-out 0.3s;
+}
+
+.jumbotron-title {
+  line-height: 4rem;
+  color: black;
+  margin-top: 20px;
+}
+
+.jumbotron-description {
+  color: black;
+  line-height: 1.7rem;
+  font-size: 18px;
+}
+
+.jumbotron-image {
+  margin-bottom: 15px;
+}
+
+/* Content */
+.content-title{
+  color: black;
+}
+.content-title span {
+  color: #048853;
+}
+
+.content-description {
+  font-style: normal;
+  font-size: 16px;
+  color: black;
+}
+.writer-profile {
+  color: black;
+  background: rgba(83, 83, 83, 0.4);
+  transition: background-color 0.3s;
+  border: none;
+}
+
+.akreditasi-image {
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+}
+.akreditasi-description {
+  font-size: 17px;
+  text-align: justify;
+}
+.akreditasi-description span{
+  font-style: italic;
+}
+
+/* Penulis */
+.profil-penulis span {
+  color: #048853;
+}
+.profile-desc {
+  text-align: justify;
+}
+
+/* Footer */
+.desc-footer{
+  color: black;
+}
+.footer-title{
+  color: black;
+}
+.footer-contact{
+  color: black;
+}
+.te-news a {
+  font-weight: normal;
+  color: black;
+}
+.te-news a:hover {
+  color: #048853;
+}
+.te-news a {
+  font-weight: normal;
+  color: black;
+}
+.te-news a:hover {
+  color: #048853;
+}
+
+footer {
+  font-size: 13px;
+  background: linear-gradient(180deg, #0000, #048853);
+}
